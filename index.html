@@ -1,75 +1,339 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Play & Learn</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <img src="./src/imgs/playlearn-logo.png" alt="Play and Learn logo" />
       <nav>
+        <a href="#inicio"><img src="./imgs/playlearn-logo.png" alt="Play and Learn logo" /></a>
         <ul>
-          <li>início</li>
-          <li>sobre</li>
-          <li>grupo</li>
-          <li>objetivos</li>
-          <li>conclusão</li>
-          <li class="extras-nav">extras</li>
+          <li><a href="#inicio">início</a></li>
+          <li><a href="#sobre">sobre</a></li>
+          <li><a href="#grupo">grupo</a></li>
+          <li><a href="#objetivos">objetivos</a></li>
+          <li><a href="#conclusao">conclusão</a></li>
         </ul>
+        <a href="#contato"><button class="header-btn">contato</button></a>
       </nav>
-      <button class="contact-btn">contato</button>
     </header>
 
-    <main>
-      <h1>Jogos Digitais e a Personalização da Aprendizagem</h1>
-      <p>Um estudo sobre como os jogos digitais estão remodelando a educação personalizada.</p>
-      <button>explorar o estudo</button>
-      <!-- image mask -->
-      <img src="" alt="">
+    <main id="inicio">
+      <div class="main-content">
+        <div class="main-text">
+          <h1>Jogos Digitais e a Personalização da Aprendizagem</h1>
+          <p>
+            Um estudo sobre como os jogos digitais estão remodelando a educação
+            personalizada.
+          </p>
+        </div>
+
+        <button>explorar o estudo</button>
+
+        <!-- image mask -->
+      </div>
+      <div class="mask-main">
+        <img
+         src="./imgs/main-image.jpg"
+        ></img>
+      </div>
     </main>
-    <section class="auto-slider">
-      <!-- svg -->
-       <span class="slider-text">Educação</span>
-      <!-- svg -->
-       <span class="slider-text">Tecnologia</span>
-      <!-- svg -->
-       <span class="slider-text">Personalização</span>
-      <!-- svg -->
-       <span class="slider-text">Educação</span>
-      <!-- svg -->
-       <span class="slider-text">Tecnologia</span>
+    <section  class="auto-slider">
+      <div class="list-items">
+        <img src="./imgs/Gamepad-icon.svg" alt="gamepad icon" />
+        <span class="slider-text">Educação</span>
+        <img src="./imgs/Gamepad-icon.svg" alt="gamepad icon" />
+        <span class="slider-text">Tecnologia</span>
+        <img src="./imgs/Gamepad-icon.svg" alt="gamepad icon" />
+        <span class="slider-text">Personalização</span>
+        <img src="./imgs/Gamepad-icon.svg" alt="gamepad icon" />
+        <span class="slider-text">Educação</span>
+        <img src="./imgs/Gamepad-icon.svg" alt="gamepad icon" />
+        <span class="slider-text">Tecnologia</span>
+        <img src="./imgs/Gamepad-icon.svg" alt="gamepad icon" />
+        <span class="slider-text">Educação</span>
+      </div>
     </section>
-    <section class="sobre">
+    <section id="sobre" class="sobre">
       <div class="bloco1-sobre">
-        <h3>Pesquisa e Aprendizagem</h3>
-        <h1>Jogos e Aprendizagem Personalizada</h1>
-        <p>Exploramos como as tecnologias modernas podem oferecer uma experiência de aprendizado mais envolvente e individualizada para atender às necessidades educacionais.</p>
-        <img src="" alt="">
+        <div class="sobre-text">
+          <h3>Pesquisa e Aprendizagem</h3>
+          <h2>Jogos e Aprendizagem Personalizada</h2>
+          <p>
+            Exploramos como as tecnologias modernas podem oferecer uma experiência
+            de aprendizado mais envolvente e individualizada para atender às
+            necessidades educacionais.
+          </p>
+        </div>
+        <img src="./imgs/keyboard-img.png" alt="" />
       </div>
       <div class="bloco2-sobre">
-        <h3>Personalização Educacional</h3>
-        <h1>Diversidade e Adaptação em Jogos</h1>
-        <p>Analisamos como diferentes estilos de jogos digitais podem ser ajustados para se alinhar aos estilos de aprendizagem e ritmos dos estudantes, promovendo uma experiência mais rica e aumentando o desempenho acadêmico.</p>
-        <img src="" alt="">
+        <img src="./imgs/celphone-img.png" alt="" />
+        <div class="sobre-text">
+          <h3>Personalização Educacional</h3>
+          <h2>Diversidade e Adaptação em Jogos</h2>
+          <p>
+            Analisamos como diferentes estilos de jogos digitais podem ser
+            ajustados para se alinhar aos estilos de aprendizagem e ritmos dos
+            estudantes, promovendo uma experiência mais rica e aumentando o
+            desempenho acadêmico.
+          </p>
+        </div>
       </div>
       <div class="bloco3-sobre">
-        <h3>Documentação de Pesquisa</h3>
-        <h1>Processo e Recursos Educativos</h1>
-        <p>Este site acompanha nossa pesquisa do início ao protótipo final, oferecendo recursos e orientações para educadores que desejam usar jogos digitais na personalização da aprendizagem.</p>
-        <img src="" alt="">
+        <div class="sobre-text">
+          <h3>Documentação de Pesquisa</h3>
+          <h2>Processo e Recursos Educativos</h2>
+          <p>
+            Este site acompanha nossa pesquisa do início ao protótipo final,
+            oferecendo recursos e orientações para educadores que desejam usar
+            jogos digitais na personalização da aprendizagem.
+          </p>
+        </div>
+        <img src="./imgs/arcade.png" alt="" />
       </div>
-
     </section>
 
-    <section class="grupo">
-      <h3>grupo</h3>
-      <h2>Conheça Nossos Integrantes</h2>
-      <div class="bloco1-grupo"></div>
-      <div class="bloco2-grupo"></div>
-      <div class="bloco3-grupo"></div>
-      <div class="bloco4-grupo"></div>
-      <div class="bloco5-grupo"></div>
+    <section id="grupo" class="grupo">
+      <div class="grupo-text">
+        <h3>grupo</h3>
+        <h2>Conheça Nossos Integrantes</h2>
+      </div>
+      <div class="top-blocks">
+        
+        <div class="bloco1-grupo grupo-blc">
+          <img src="./imgs/rafael.png" alt="">
+          <h4>Rafael da Costa</h4>
+          <p></p>
+        </div>
+        <div class="bloco2-grupo grupo-blc">
+          <img src="./imgs/eduardo.png" alt="">
+          <h4>Eduardo Soares</h4>
+          <p></p>
+        </div>
+        <div class="bloco3-grupo grupo-blc">
+          <img src="./imgs/welison.png" alt="">
+          <h4>Welison  kichhofel</h4>
+          <p></p>
+        </div>
+      </div>
+      <div class="bottom-blocks">
+        
+        <div class="bloco4-grupo grupo-blc">
+          <img src="./imgs/Bianca.png" alt="">
+          <h4>Bianca Maisa</h4>
+          <p></p>
+        </div>
+        <div class="bloco5-grupo grupo-blc">
+          <img src="./imgs/Rafaela.png" alt="">
+          <h4>Rafaela Kosztozycki </h4>
+          <p></p>
+        </div>
+      </div>
     </section>
+    <section class="ad">
+      <div class="logo-square"><img src="imgs/playlearn-logo.png" alt="" /></div>
+      
+
+      <h3 class="ad">Precisando de um site?</h3>
+      <p>Vamos transformar suas ideias em experiências únicas!</p>
+      <a href="#contato"><button class="button-ad">Entre em Contato</button></a>
+    </section>
+
+    <section id="objetivos" class="objetivos">
+      <img class="bg" src="imgs/bg-light.png" alt="">
+      <h3 class="objetivos">objetivos da pesquisa</h3>
+      <div class="blocos-objetivos">
+        <div class="bloco1-obj bloco-obj">
+          <img src="imgs/img-1.png" alt="" />
+          <h2 class="objetivos">
+            Adaptação de Conteúdos Educacionais com Jogos Digitais
+          </h2>
+          <img class="divisor" src="imgs/divisor-blue.svg" alt="">
+          <p>
+            Explorar como diferentes tipos de jogos digitais podem ser utilizados
+            para adaptar conteúdos às necessidades específicas dos alunos,
+            considerando seus estilos de aprendizagem e ritmos de desenvolvimento.
+            Esta análise envolve categorizar os jogos conforme suas
+            funcionalidades pedagógicas e mapear os benefícios para diferentes
+            perfis de alunos.
+          </p>
+        </div>
+        <div class="bloco2-obj bloco-obj">
+          <img src="imgs/img-2.png" alt="" />
+          <h2 class="objetivos">Avaliação do Desempenho Acadêmico</h2>
+          <img class="divisor" src="imgs/divisor-blue-pink.png" alt="">
+          <p>
+            Verificar o impacto dos jogos digitais adaptativos no desempenho dos
+            alunos. Para isso, serão analisados dados anteriores e realizados
+            novos estudos para avaliar a eficácia da personalização na
+            aprendizagem. A comparação entre o desempenho antes e depois da
+            utilização dos jogos trará insights sobre a contribuição dessas
+            ferramentas para o progresso acadêmico dos alunos.
+          </p>
+        </div>
+        <div class="bloco3-obj bloco-obj">
+          <div>
+            <img src="imgs/img-3.png" alt="" />
+            <h2 class="objetivos">Documentação e Orientação para Educadores</h2>
+          </div>
+          <img class="divisor" src="imgs/divisor-pink.png" alt="">
+          <p>
+            Desenvolver este site que não só documenta o processo de pesquisa e
+            desenvolvimento do protótipo, mas também ofereça orientações práticas
+            e recursos para educadores interessados em implementar jogos digitais
+            na personalização da aprendizagem. O objetivo é tornar o conhecimento
+            acessível e aplicável no contexto educacional.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="conclusao" class="conclusao">
+     
+      <div class="content-conclusao">
+        <div class="left-content">
+          <div class="title">
+            <h3>conclusão</h3>
+            <h2 class="conclusao">Resultados da Pesquisa</h2>
+          </div>
+          <p>
+            A pesquisa sobre “Jogos Digitais e a Personalização da Aprendizagem”
+            revelou importantes resultados sobre o uso de tecnologias
+            interativas para adaptar o ensino às necessidades individuais dos
+            alunos. Ao investigar o impacto dos jogos digitais adaptativos no
+            ambiente educacional, foram identificadas diversas contribuições
+            relevantes tanto para alunos quanto para educadores.
+          </p>
+          <p>
+            Primordialmente os resultados mostraram que os jogos digitais
+            adaptativos são eficazes na personalização do aprendizado,
+            permitindo que os conteúdos sejam ajustados de acordo com os estilos
+            e ritmos de aprendizagem de cada aluno. As plataformas de jogos que
+            oferecem níveis de dificuldade personalizáveis e mecanismos de
+            feedback em tempo real demonstraram ser especialmente úteis na
+            promoção de uma aprendizagem mais eficiente e engajadora. A
+            flexibilidade oferecida pelos jogos digitais permite que os alunos
+            avancem em seu próprio ritmo, favorecendo a retenção do conteúdo e o
+            desenvolvimento de habilidades práticas.
+          </p>
+          <p>
+            Ademais, a análise também destacou que os jogos digitais têm
+            potencial para aumentar a motivação dos alunos. A utilização de
+            elementos lúdicos e interativos proporciona uma experiência de
+            aprendizado mais envolvente, favorecendo tanto o desenvolvimento de
+            habilidades cognitivas quanto sociais. Os alunos que utilizam jogos
+            digitais adaptativos tendem a se sentir mais motivados e autônomos
+            em seu processo de aprendizagem, pois o ambiente digital lhes
+            permite explorar diferentes estratégias e abordagens, estimulando a
+            criatividade e o pensamento crítico.
+          </p>
+
+          <p>
+            Embora não tenha sido utilizado um método quantitativo para medir o
+            desempenho acadêmico, diversos artigos e observações sugerem que os
+            jogos digitais adaptativos foram particularmente benéficos para
+            alunos que apresentavam dificuldades em métodos de ensino mais
+            tradicionais. Professores relataram melhorias no engajamento e na
+            compreensão dos alunos em disciplinas nas quais anteriormente tinham
+            pouco progresso. Os relatos também indicam que os jogos digitais
+            criaram um espaço inclusivo, permitindo que alunos com diferentes
+            habilidades e ritmos de aprendizagem participassem ativamente do
+            processo educativo.
+          </p>
+
+          <p>
+            Além disso, a pesquisa identificou a necessidade de capacitação de
+            educadores para o uso eficaz dessas ferramentas. Os professores que
+            integraram os jogos digitais no ensino reportaram desafios iniciais
+            relacionados à adaptação do conteúdo e à incorporação dos jogos na
+            dinâmica de sala de aula. No entanto, à medida que se familiarizaram
+            com as ferramentas, os educadores perceberam um aumento na interação
+            dos alunos e no desenvolvimento de habilidades específicas.
+          </p>
+          <p>
+            De maneira geral, a pesquisa evidenciou que os jogos digitais
+            adaptativos podem transformar a forma como o aprendizado é
+            oferecido, promovendo uma abordagem mais personalizada e centrada
+            nas necessidades de cada aluno. A combinação de interatividade,
+            flexibilidade e adaptação aos estilos individuais de aprendizagem se
+            mostrou eficaz para melhorar o desempenho acadêmico, a motivação e o
+            engajamento dos alunos, reforçando a importância de incorporar essas
+            tecnologias no contexto educacional atual.
+          </p>
+        </div>
+        <div class="right-content">
+          <div class="logo-square">
+
+            <img src="imgs/playlearn-logo.png" alt="" />
+          </div>
+      <div class="text">
+  
+            <h2 class="ad">Precisando de um site?</h2>
+            <p class="ad">Vamos transformar suas ideias em experiências únicas!</p>
+            <a href="#contato"><button class="button-ad">Entre em Contato</button></a>
+      </div>
+        </div>
+      </div>
+      <div class="bg-conclusao">
+        <img src="imgs/bg.png" alt="">
+      </div>
+    </section>
+    <section id="contato" class="contato">
+      <h2 class="contato">Gostou do Que Viu? Entre em Contato!</h2>
+      <div class="blocks-contato">
+        <div class="mail block-c">
+          <img src="imgs/mail.svg" alt="">
+          <span class="contato-titulo">Email</span>
+          <div class="gradient-border">
+            <div class="border-inside"><span class="contato-info">rafael.dvedana@gmail.com</span></div>
+          </div>
+        </div>
+        <div class="mid-blocks">
+          <div class="number mid-block block-c">
+          <img src="imgs/whatsapp.svg" alt="">
+            <div class="container-escrita">
+              <span class="contato-titulo">Contato</span>
+              <div class="gradient-border">
+                <div class="border-inside">
+                  <span class="contato-info">+55 (54) 99279-3669</span>
+                </div>
+              </div>
+                        </div>
+            </div>
+          <div class="linkedin mid-block block-c">
+            <img src="imgs/linkedin.svg" alt="">
+            <div class="container-escrita">
+              <span class="contato-titulo">Linkedin</span>
+              <div class="gradient-border">
+                <div class="border-inside">
+                  <span class="contato-info"
+                    ><a
+                      href="https://www.linkedin.com/in/rafael-da-costa-vedana-928913291/"
+                      target="_blank"
+                      >Rafael da Costa Vedana</a
+                    ></span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <span>Copyright &copy 2024 - Todos direitos Reservados - Rafael da Costa Vedana </span>
+    </footer>
   </body>
 </html>
